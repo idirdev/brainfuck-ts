@@ -1,0 +1,27 @@
+{
+  "name": "brainfuck-ts",
+  "version": "1.0.0",
+  "description": "Brainfuck language interpreter and compiler written in TypeScript",
+  "main": "dist/index.js",
+  "bin": {
+    "brainfuck": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "clean": "rm -rf dist"
+  },
+  "keywords": ["brainfuck", "interpreter", "compiler", "esoteric", "language"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^9.4.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.4",
+    "@types/node": "^18.11.18",
+    "ts-node": "^10.9.1"
+  }
+}
