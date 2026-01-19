@@ -1,3 +1,5 @@
+> **Archived** — Kept for reference. Not part of the current portfolio.
+
 # brainfuck-ts
 
 [![TypeScript](https://img.shields.io/badge/TypeScript-4.9-blue.svg)](https://www.typescriptlang.org/)
