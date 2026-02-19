@@ -122,3 +122,28 @@ brainfuck-ts/
 ## License
 
 MIT
+
+---
+
+## 🇫🇷 Documentation en français
+
+### Description
+**brainfuck-ts** est un interpréteur, optimiseur et compilateur complet pour le langage ésotérique Brainfuck, écrit en TypeScript. Il inclut un débogueur pas-à-pas, un REPL interactif et plusieurs passes d'optimisation (détection de boucles de copie, de multiplication, etc.). Ce projet a été développé comme exercice de fin de semaine en 2019.
+
+### Installation
+```bash
+npm install
+npm run build
+```
+
+### Utilisation
+```bash
+# Exécuter un programme Brainfuck
+node dist/index.js run examples/hello.bf
+
+# Compiler en JavaScript
+node dist/index.js run examples/hello.bf --compile output.js
+
+# Lancer le REPL interactif
+node dist/index.js repl
+```
