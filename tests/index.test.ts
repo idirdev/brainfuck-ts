@@ -6,7 +6,7 @@ import { Token } from '../src/types';
 
 describe('Lexer - tokenize', () => {
   it('tokenizes basic brainfuck characters', () => {
-    const tokens = tokenize('+-><[].,');
+    const tokens = tokenize('+-><[],.');
     expect(tokens).toHaveLength(8);
     expect(tokens.map((t) => t.token)).toEqual([
       Token.Plus,
